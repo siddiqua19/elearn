@@ -34,7 +34,7 @@
     text-transform: capitalize;
     color: #151515;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 22px;
     transition: all 0.3s ease;
     position: relative;
   }
@@ -54,7 +54,10 @@
     bottom: -4px;
     left: 0;
   }
-  
+  .header img{
+    height: 30px;
+    
+  }
   .header button {
     padding: 10px 30px;
     border: 1px solid #ff432a;
@@ -99,9 +102,9 @@
   
   .hero-text h1 {
     color: black;
-    font-size: 56px;
-    font-weight: 700;
-    padding-bottom: 20px;
+    font-size: 4rem;
+    font-weight: 600;
+    padding-bottom: 42px;
   }
   
   .hero-text h1 span {
@@ -144,8 +147,9 @@
     gap: 30px;
     transition: transform 2s ease;
   }
-  .hero-main img:hover{
+  .hero-img img:hover{
     transform: translateY(-10px);
+    /* box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2); */
   }
   
   .hero-img img {
@@ -172,14 +176,12 @@
   }
   
   .hero-abs {
+    display: flex;
     box-shadow: 0 4px 10px #0000001a;
     width: fit-content;
-    /* position: absolute;
-    top: 45%;
-    left: 45%; */
-    display: flex;
+    gap: 10px;
     align-items: center;
-    /* gap: 10px; */
+    /* position: absolute;*/
     padding: 15px;
     z-index: 2;
     background: #fbd6d1;
@@ -337,7 +339,7 @@
     bottom: 20px;
     right: 120px;
   }
-  
+ok  
   .star3 {
     position: absolute;
     bottom: 20px;
